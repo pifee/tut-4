@@ -11,4 +11,9 @@ public class TestCalc {
   void t1() {
     assertEquals(foo.add(1, 2), 3);
   }
+
+  @Test
+  void t2() {
+    assertEquals(foo.substract(1, 2), -1);
+  }
 }
